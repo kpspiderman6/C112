@@ -1,0 +1,68 @@
+body{
+    text-align: center;
+    background-color: rgb(56, 187, 231);
+}
+#logo{
+    width: 50px;
+    height: 50px;
+}
+#camera{
+    border: deeppink;
+    border-style: groove;
+    width: 300;
+    height: 300;
+    border-width: 10px;
+}
+#snapshot{
+    border: deeppink;
+    border-style: groove;
+    border-width: 10px;
+    width: 300;
+    height: 300;
+}
+.webcam1{
+    border:rgb(132, 224, 255);
+    border-style: groove;
+    border-width: 10px;
+    background-color: rgb(180, 255, 255);
+}
+.snap1{
+    border:rgb(132, 224, 255);
+    border-style: groove;
+    border-width: 10px;
+    background-color: rgb(124, 255, 251);
+}
+#la1{
+    border:rgb(132, 224, 255);
+    border-style: groove;
+    border-width: 6px;
+    background-color: rgb(141, 239, 252);
+    box-shadow: rgb(95, 248, 240);
+    width: 250px;
+}
+#la2{
+    border:rgb(132, 224, 255);
+    border-style: groove;
+    border-width: 6px;
+    background-color: rgb(141, 239, 252);
+    box-shadow: rgb(95, 248, 240);
+    width: 250px;
+}
+#gif{
+    width: 60px;
+    border-radius: 5px;
+    bottom: 0px;
+}
+#result1{
+    border-radius: 10px;
+    bottom: 0px;
+}
+.result{
+    padding-bottom: 15px;
+}
+.answer{
+    margin-bottom: 15px;
+}
+.deve{
+    background-color: silver;
+}

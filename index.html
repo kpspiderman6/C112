@@ -1,0 +1,51 @@
+
+<html>
+  <head>
+    <title>MobileNet</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+
+  <body>
+    
+    <center>
+      <h1>Image Identification app
+      <span><img id="logo"src="logo.gif"></span></h1>
+      <br>
+      <br>
+        <div class="col-sm-6 col-xs-12 webcam1">
+      <label id="la1">Webcam :-</label><div id="camera"></div><button id="capture_img"class="btn btn-primary"onclick="CAPTURE()">Capture Image</button></div>
+      <div class="col-sm-6 col-xs-12 snap1">
+      <label id="la2">Snapshot :-</label><div id="snapshot"></div><button id="snap"class="btn btn-danger"onclick="SNAPSHOT()">Identify Image</button></div>
+      
+      <br>
+      <div class="answer">
+        <h1 class="col-sm-6 col-xs-12 result">
+      <img id="gif"src="blub.gif"><textarea id="result1"></textarea>
+    </h1></div>
+
+    <div class="col-sm-12 col-xs-24 deve">Developed by Krisha Pawale</div>
+    </center>
+
+
+    
+<script src="main.js"></script>
+  </body>
+</html>
+
+
+
+
+
+
+
+
+ 
+
